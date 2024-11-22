@@ -27,3 +27,7 @@ and removes the second item from the stack.
 removes the first item from the stack.
 
 On each step, the parser will decide among the three transitions using a neural network classifier.
+
+Tested using Python version 3.11.7.
+
+

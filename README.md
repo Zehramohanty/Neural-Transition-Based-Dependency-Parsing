@@ -6,7 +6,8 @@ This required PyTorch without CUDA installed.
 A dependency parser analyzes the grammatical structure of a sentence, establishing relationships between head
 words, and words which modify those heads. This implementation will be a transition-based parser, which incrementally
 builds up a parse one step at a time. At every step it maintains a partial parse, which is represented as
-follows
+follows:
+
 • A stack of words that are currently being processed.
 • A buffer of words yet to be processed.
 • A list of dependencies predicted by the parser.
